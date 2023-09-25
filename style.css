@@ -1,0 +1,331 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+.main {
+    width: 100%;
+    background-image: url(pic/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh; /* Adjust the height as needed */
+    position: relative;
+    font-family: sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 10px 0; /* Adjust padding as needed */
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Fix the navbar at the top */
+}
+
+.navbar .logo {
+    width: 140px; /* Reduce the width of the logo */
+    cursor: pointer;
+    margin-left: 20px; /* Add a bit of left margin to center it */
+}
+
+
+.navbar {
+    /* ... other styles ... */
+    padding: 10px 0; /* Reduce the padding */
+    position: fixed; /* Fix the navbar at the top */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a background color with some transparency */
+    width: 100%;
+}
+
+.navbar .logo {
+    /* ... other styles ... */
+    width: 140px; /* Reduce the width of the logo */
+    margin-left: 20px; /* Adjust the left margin */
+}
+
+/* Menu styles */
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(230, 143, 206);
+}
+
+/* Code block styles */
+.code-block {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Code text styles */
+.code-text {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+    .info{
+        margin-left: 7%;
+        margin-top: 6%;
+    }
+    
+    .info h1{
+        font-size: 40px;
+        color:mediumvioletred;
+    }
+    
+    .info h3{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    
+    .info a{
+        text-decoration: none;
+        color: #fff;
+        background: purple;
+        margin: 10px 0;
+        padding: 10px 18px;
+        border-radius: 10px;
+        display: inline-block;
+        transition: .4s ease;
+    }
+    .info a:hover {
+        background: rgb(230, 143, 206);
+    }
+    
+.image {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image img {
+    height: 100%;
+    max-width: 100%;
+}
+    .icons a{
+        text-decoration: none;
+        color:darkmagenta;
+    }
+    .icons {
+        background-color: transparent; 
+        padding: 0; 
+        margin: 0; 
+        text-align: center;
+    }
+    
+    .icons ion-icon{
+        margin-left: 7%;
+        color: darkmagenta;
+        margin-right: -60px;
+        font-size: 40px;
+        transition: .4s ease;
+        
+    }
+    
+    .icons ion-icon:hover{
+        color:rgb(230, 143, 206);
+    }
+
+.about-page {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-page h1 {
+    color: mediumvioletred;
+    font-size: 36px;
+    margin-bottom: 20px; /* Add margin to create space between elements */
+}
+
+.about-page p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px; /* Add margin to create space between paragraphs */
+}
+
+.about-page h2 {
+    color: mediumvioletred;
+    font-size: 24px;
+    margin-top: 20px; /* Add margin to create space between headings and content */
+}
+
+.about-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px; /* Add margin to create space between list and content */
+}
+
+.about-page li {
+    font-size: 18px;
+    color: #333;
+}
+
+.about-page a {
+    color: mediumvioletred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-page a:hover {
+    text-decoration: underline;
+}
+
+
+    /* Style for the "Back to Home" button */
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px; /* Add margin as needed */
+    padding: 10px 20px; /* Add padding as needed */
+    background-color: mediumvioletred; /* Change the background color */
+    color: #fff; /* Change the text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: lightpink; /* Change the background color on hover */
+}
+/* Main styles for the "Works" page */
+.works-page {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.works-page h1 {
+    color: mediumvioletred;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.works-page p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.works-page h2 {
+    color: mediumvioletred;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.works-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.works-page li {
+    font-size: 18px;
+    color: #333;
+}
+
+.works-page a {
+    color: mediumvioletred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.works-page a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the "Back to Home" button */
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: mediumvioletred;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: lightpink;
+}
+/* Main styles for the "Contact Me" page */
+.contact-page {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-page h1 {
+    color: mediumvioletred;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: mediumvioletred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: lightpink;
+}
